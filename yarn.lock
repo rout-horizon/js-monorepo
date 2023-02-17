@@ -7557,14 +7557,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@snx-v3/Constants@workspace:*, @snx-v3/Constants@workspace:v3/lib/Constants":
-  version: 0.0.0-use.local
-  resolution: "@snx-v3/Constants@workspace:v3/lib/Constants"
-  dependencies:
-    react: ^18.2.0
-  languageName: unknown
-  linkType: soft
-
 "@snx-v3/DepositModal@workspace:*, @snx-v3/DepositModal@workspace:v3/components/DepositModal":
   version: 0.0.0-use.local
   resolution: "@snx-v3/DepositModal@workspace:v3/components/DepositModal"
@@ -7731,6 +7723,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@snx-v3/constants@workspace:*, @snx-v3/constants@workspace:v3/lib/constants":
+  version: 0.0.0-use.local
+  resolution: "@snx-v3/constants@workspace:v3/lib/constants"
+  languageName: unknown
+  linkType: soft
+
 "@snx-v3/cypress@workspace:v3/cypress":
   version: 0.0.0-use.local
   resolution: "@snx-v3/cypress@workspace:v3/cypress"
@@ -7828,7 +7826,6 @@ __metadata:
     "@snx-v3/BorderBox": "workspace:*"
     "@snx-v3/BorrowModal": "workspace:*"
     "@snx-v3/CollateralTypeSelector": "workspace:*"
-    "@snx-v3/Constants": "workspace:*"
     "@snx-v3/DepositModal": "workspace:*"
     "@snx-v3/HomeLink": "workspace:*"
     "@snx-v3/ManagePositionContext": "workspace:*"
@@ -7840,6 +7837,7 @@ __metadata:
     "@snx-v3/TrendText": "workspace:*"
     "@snx-v3/WithdrawModal": "workspace:*"
     "@snx-v3/calculations": "workspace:*"
+    "@snx-v3/constants": "workspace:*"
     "@snx-v3/etherscanLink": "workspace:*"
     "@snx-v3/format": "workspace:*"
     "@snx-v3/icons": "workspace:*"
@@ -7881,6 +7879,8 @@ __metadata:
     "@types/react-helmet": ^6.1.6
     "@web3-onboard/core": ^2.15.0
     "@web3-onboard/injected-wallets": ^2.7.0
+    "@web3-onboard/react": ^2.6.2
+    "@web3-onboard/walletconnect": ^2.2.2
     babel-jest: ^29.4.2
     babel-loader: ^9.1.2
     babel-plugin-istanbul: ^6.1.1
@@ -8073,7 +8073,7 @@ __metadata:
   dependencies:
     "@ethersproject/bignumber": ^5.7.0
     "@ethersproject/contracts": ^5.7.0
-    "@snx-v3/Constants": "workspace:*"
+    "@snx-v3/constants": "workspace:*"
     "@snx-v3/useBlockchain": "workspace:*"
     "@snx-v3/useEthPrice": "workspace:*"
     "@snx-v3/useGasPrice": "workspace:*"
@@ -8091,7 +8091,7 @@ __metadata:
   dependencies:
     "@ethersproject/bignumber": ^5.7.0
     "@ethersproject/providers": ^5.7.2
-    "@snx-v3/Constants": "workspace:*"
+    "@snx-v3/constants": "workspace:*"
     "@snx-v3/useBlockchain": "workspace:*"
     "@synthetixio/wei": "workspace:*"
     "@tanstack/react-query": ^4.24.6
@@ -8171,7 +8171,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snx-v3/usePoolData@workspace:v3/lib/usePoolData"
   dependencies:
-    "@snx-v3/Constants": "workspace:*"
+    "@snx-v3/constants": "workspace:*"
     "@snx-v3/useBlockchain": "workspace:*"
     "@synthetixio/wei": "workspace:*"
     "@tanstack/react-query": ^4.24.6
@@ -12835,6 +12835,19 @@ __metadata:
     "@portis/web3": ^4.0.6
     "@web3-onboard/common": ^2.2.3
   checksum: 538c0c44e6470ebe3f1a791200498aa2f53824d11d03a7615479e715d4c147dbeb7da911aa57b0b9bf544eda24c9297853ab41ae0c1d8096c8c9d67b4b885522
+  languageName: node
+  linkType: hard
+
+"@web3-onboard/react@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "@web3-onboard/react@npm:2.6.2"
+  dependencies:
+    "@web3-onboard/common": ^2.2.3
+    "@web3-onboard/core": ^2.15.0
+    use-sync-external-store: 1.0.0
+  peerDependencies:
+    react: ">=16.8"
+  checksum: cec0121b6b165e4eeb31ee6b475a85f1e2dceac19dc82b1039571cc22c13e2dfaa972c7be14f585c06228aa72ebe545a5de140ed71c5e0b881340f98b9982b09
   languageName: node
   linkType: hard
 
@@ -34664,6 +34677,15 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 925d1922f9853e516eaad526b6fed1be38008073067274f0ecc3f56b17bb8ab63480140dd7c271f94150027c996cea4efe83d3e3525e8f3eda22055f6a39220b
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:1.0.0":
+  version: 1.0.0
+  resolution: "use-sync-external-store@npm:1.0.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0-rc
+  checksum: f3df10af62625169d6a8cd8d4f38942dc6817aa27398fa7f474421fd574b0c4c83679b9d15f983f482c396ee1183416eb146814c81f44241e1480acd701ef018
   languageName: node
   linkType: hard
 
