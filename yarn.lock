@@ -7475,7 +7475,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@snx-v3/AccountNav@workspace:*, @snx-v3/AccountNav@workspace:v3/components/AccountNav":
+"@snx-v3/AccountNav@workspace:v3/components/AccountNav":
   version: 0.0.0-use.local
   resolution: "@snx-v3/AccountNav@workspace:v3/components/AccountNav"
   dependencies:
@@ -7508,7 +7508,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@snx-v3/Balance@workspace:*, @snx-v3/Balance@workspace:v3/components/Balance":
+"@snx-v3/Balance@workspace:v3/components/Balance":
   version: 0.0.0-use.local
   resolution: "@snx-v3/Balance@workspace:v3/components/Balance"
   dependencies:
@@ -7822,12 +7822,9 @@ __metadata:
     "@emotion/styled": ^11.10.5
     "@faker-js/faker": ^7.6.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.10
-    "@rainbow-me/rainbowkit": ^0.8.1
     "@snx-v2/formatters": "workspace:*"
-    "@snx-v3/AccountNav": "workspace:*"
     "@snx-v3/AccountsSelector": "workspace:*"
     "@snx-v3/Amount": "workspace:*"
-    "@snx-v3/Balance": "workspace:*"
     "@snx-v3/BorderBox": "workspace:*"
     "@snx-v3/BorrowModal": "workspace:*"
     "@snx-v3/CollateralTypeSelector": "workspace:*"
@@ -7853,7 +7850,6 @@ __metadata:
     "@snx-v3/useCoreProxy": "workspace:*"
     "@snx-v3/useDeposit": "workspace:*"
     "@snx-v3/useEthBalance": "workspace:*"
-    "@snx-v3/useExternalMulticall": "workspace:*"
     "@snx-v3/useGasSpeed": "workspace:*"
     "@snx-v3/useLiquidityPosition": "workspace:*"
     "@snx-v3/useLiquidityPositions": "workspace:*"
@@ -7883,7 +7879,8 @@ __metadata:
     "@types/react": ^18.0.28
     "@types/react-chartjs-2": ^2.5.7
     "@types/react-helmet": ^6.1.6
-    "@wagmi/chains": ^0.1.5
+    "@web3-onboard/core": ^2.15.0
+    "@web3-onboard/injected-wallets": ^2.7.0
     babel-jest: ^29.4.2
     babel-loader: ^9.1.2
     babel-plugin-istanbul: ^6.1.1
@@ -7909,7 +7906,6 @@ __metadata:
     style-loader: ^3.3.1
     terser-webpack-plugin: ^5.3.6
     typescript: ^4.9.5
-    wagmi: ^0.9.6
     webpack: ^5.75.0
     webpack-bundle-analyzer: ^4.8.0
     webpack-cli: ^5.0.1
@@ -7970,7 +7966,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snx-v3/useBlockchain@workspace:v3/lib/useBlockchain"
   dependencies:
-    wagmi: ^0.9.6
+    "@snx-v3/icons": "workspace:*"
+    ethers: ^5.7.2
+    react: ^18.2.0
   languageName: unknown
   linkType: soft
 
@@ -12419,13 +12417,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wagmi/chains@npm:^0.1.5":
-  version: 0.1.9
-  resolution: "@wagmi/chains@npm:0.1.9"
-  checksum: da2dcfccb105cebe0b6c58604adffaa99c6a9179782716d0be8ff0c4eeb6a88d23f4e09c22bdb85e0157fdbe7baea3c4244e582cc4512f98527c3432eadc5f36
-  languageName: node
-  linkType: hard
-
 "@wagmi/connectors@npm:0.1.2":
   version: 0.1.2
   resolution: "@wagmi/connectors@npm:0.1.2"
@@ -12769,6 +12760,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@web3-onboard/core@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@web3-onboard/core@npm:2.15.0"
+  dependencies:
+    "@unstoppabledomains/resolution": ^8.0
+    "@web3-onboard/common": ^2.2.3
+    bignumber.js: ^9.0.0
+    bnc-sdk: ^4.6.6
+    bowser: ^2.11.0
+    ethers: 5.5.3
+    eventemitter3: ^4.0.7
+    joi: ^17.6.1
+    lodash.merge: ^4.6.2
+    lodash.partition: ^4.6.0
+    nanoid: ^4.0.0
+    rxjs: ^7.5.5
+    svelte: ^3.49.0
+    svelte-i18n: ^3.3.13
+  checksum: 69d9cb9e433c0fc6896bacbb5dbee53e73f547fbf23dfb64d749fa418f2de07cadb52522194bb572cefff5ad3c6a8a1f2e9a9d7ef92b5546f0480c65404f13a7
+  languageName: node
+  linkType: hard
+
 "@web3-onboard/gnosis@npm:^2.1.6":
   version: 2.1.6
   resolution: "@web3-onboard/gnosis@npm:2.1.6"
@@ -12788,6 +12801,17 @@ __metadata:
     joi: ^17.6.1
     lodash.uniqby: ^4.7.0
   checksum: 7278126a7c1dcef1f36fea1e44003d1d4cdc53dc44401b6a1ee4d2d670594b5f43a0cedc1d4c0514c60def468a56bc04a810633991fdcd57f986d6bc427ce1f7
+  languageName: node
+  linkType: hard
+
+"@web3-onboard/injected-wallets@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@web3-onboard/injected-wallets@npm:2.7.0"
+  dependencies:
+    "@web3-onboard/common": ^2.2.3
+    joi: ^17.6.1
+    lodash.uniqby: ^4.7.0
+  checksum: 159331750d6c1ab5476368d91b03f9aba0ba81ccf92559c1f128bcf542392b1d16d651bac4f536639883490558d37f858486045a806a3e7424ada46a379a127b
   languageName: node
   linkType: hard
 
@@ -15081,6 +15105,18 @@ __metadata:
     rxjs: ^6.6.3
     sturdy-websocket: ^0.1.12
   checksum: 5aa90af66b7c30dda5f811e72e68f89fc65edfdb65589ba39fb015eceddf3989480e9df48e4c64bf1380715375330fc0fae81bd667f533f0b524f4eb5ba74196
+  languageName: node
+  linkType: hard
+
+"bnc-sdk@npm:^4.6.6":
+  version: 4.6.7
+  resolution: "bnc-sdk@npm:4.6.7"
+  dependencies:
+    crypto-es: ^1.2.2
+    nanoid: ^3.3.1
+    rxjs: ^6.6.3
+    sturdy-websocket: ^0.1.12
+  checksum: d4606d59b1b79d26c2d7051a382ea7107b3f404dc7cf1397d59dd641685331c603204987dc4553f541f2d3548c89de97d195d93ac9b38311a663c17006635003
   languageName: node
   linkType: hard
 
