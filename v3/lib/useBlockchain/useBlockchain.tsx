@@ -95,7 +95,7 @@ export const onboard = onboardInit({
   appMetadata,
   connect: {
     // disableClose: true,
-    autoConnectLastWallet: true,
+    // autoConnectLastWallet: true,
   },
   apiKey: ONBOARD_KEY,
   accountCenter: {
