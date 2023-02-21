@@ -7877,9 +7877,8 @@ __metadata:
     "@types/react": ^18.0.28
     "@types/react-chartjs-2": ^2.5.7
     "@types/react-helmet": ^6.1.6
-    "@web3-onboard/core": ^2.15.0
-    "@web3-onboard/injected-wallets": ^2.7.0
-    "@web3-onboard/react": ^2.6.2
+    "@web3-onboard/core": ^2.15.2
+    "@web3-onboard/injected-wallets": ^2.8.0
     "@web3-onboard/walletconnect": ^2.2.2
     babel-jest: ^29.4.2
     babel-loader: ^9.1.2
@@ -10300,9 +10299,9 @@ __metadata:
     "@uniswap/v3-sdk": ^3.6.3
     "@web3-onboard/coinbase": ^2.2.0
     "@web3-onboard/common": ^2.2.3
-    "@web3-onboard/core": ^2.14.1
+    "@web3-onboard/core": ^2.15.2
     "@web3-onboard/gnosis": ^2.1.6
-    "@web3-onboard/injected-wallets": ^2.6.2
+    "@web3-onboard/injected-wallets": ^2.8.0
     "@web3-onboard/ledger": ^2.4.2
     "@web3-onboard/portis": ^2.1.3
     "@web3-onboard/torus": ^2.2.1
@@ -12738,14 +12737,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@web3-onboard/core@npm:^2.14.1":
-  version: 2.14.1
-  resolution: "@web3-onboard/core@npm:2.14.1"
+"@web3-onboard/core@npm:^2.15.2":
+  version: 2.15.2
+  resolution: "@web3-onboard/core@npm:2.15.2"
   dependencies:
     "@unstoppabledomains/resolution": ^8.0
     "@web3-onboard/common": ^2.2.3
     bignumber.js: ^9.0.0
-    bnc-sdk: ^4.6.5
+    bnc-sdk: ^4.6.7
     bowser: ^2.11.0
     ethers: 5.5.3
     eventemitter3: ^4.0.7
@@ -12756,29 +12755,7 @@ __metadata:
     rxjs: ^7.5.5
     svelte: ^3.49.0
     svelte-i18n: ^3.3.13
-  checksum: 63c86cce0acede74a48317ce3ebc6a4abb1fde835e75af6d6df242bffc95dfa636b8b4e3a785183bca2e64200ddf8dabf191134f63cbd243c54ff61d30bd62c7
-  languageName: node
-  linkType: hard
-
-"@web3-onboard/core@npm:^2.15.0":
-  version: 2.15.0
-  resolution: "@web3-onboard/core@npm:2.15.0"
-  dependencies:
-    "@unstoppabledomains/resolution": ^8.0
-    "@web3-onboard/common": ^2.2.3
-    bignumber.js: ^9.0.0
-    bnc-sdk: ^4.6.6
-    bowser: ^2.11.0
-    ethers: 5.5.3
-    eventemitter3: ^4.0.7
-    joi: ^17.6.1
-    lodash.merge: ^4.6.2
-    lodash.partition: ^4.6.0
-    nanoid: ^4.0.0
-    rxjs: ^7.5.5
-    svelte: ^3.49.0
-    svelte-i18n: ^3.3.13
-  checksum: 69d9cb9e433c0fc6896bacbb5dbee53e73f547fbf23dfb64d749fa418f2de07cadb52522194bb572cefff5ad3c6a8a1f2e9a9d7ef92b5546f0480c65404f13a7
+  checksum: bc108214609193ada1a00f743c44e8e3287786b9a5f45c8fcd13244b398c5b9621c2fcfcff9741b5c8efe3da35d1dfdc9b9fd6def48be6f601c627663bd79635
   languageName: node
   linkType: hard
 
@@ -12793,25 +12770,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@web3-onboard/injected-wallets@npm:^2.6.2":
-  version: 2.6.2
-  resolution: "@web3-onboard/injected-wallets@npm:2.6.2"
+"@web3-onboard/injected-wallets@npm:^2.8.0":
+  version: 2.8.0
+  resolution: "@web3-onboard/injected-wallets@npm:2.8.0"
   dependencies:
     "@web3-onboard/common": ^2.2.3
     joi: ^17.6.1
     lodash.uniqby: ^4.7.0
-  checksum: 7278126a7c1dcef1f36fea1e44003d1d4cdc53dc44401b6a1ee4d2d670594b5f43a0cedc1d4c0514c60def468a56bc04a810633991fdcd57f986d6bc427ce1f7
-  languageName: node
-  linkType: hard
-
-"@web3-onboard/injected-wallets@npm:^2.7.0":
-  version: 2.7.0
-  resolution: "@web3-onboard/injected-wallets@npm:2.7.0"
-  dependencies:
-    "@web3-onboard/common": ^2.2.3
-    joi: ^17.6.1
-    lodash.uniqby: ^4.7.0
-  checksum: 159331750d6c1ab5476368d91b03f9aba0ba81ccf92559c1f128bcf542392b1d16d651bac4f536639883490558d37f858486045a806a3e7424ada46a379a127b
+  checksum: 24234d7ea786b403a69c06e1c4858f2de4c2c864cdce42fc429a03984876eca588a1d3b9cd75030ac5983dd98a0fe1f4d1e6f55146698c5d2b8e224623917d78
   languageName: node
   linkType: hard
 
@@ -12835,19 +12801,6 @@ __metadata:
     "@portis/web3": ^4.0.6
     "@web3-onboard/common": ^2.2.3
   checksum: 538c0c44e6470ebe3f1a791200498aa2f53824d11d03a7615479e715d4c147dbeb7da911aa57b0b9bf544eda24c9297853ab41ae0c1d8096c8c9d67b4b885522
-  languageName: node
-  linkType: hard
-
-"@web3-onboard/react@npm:^2.6.2":
-  version: 2.6.2
-  resolution: "@web3-onboard/react@npm:2.6.2"
-  dependencies:
-    "@web3-onboard/common": ^2.2.3
-    "@web3-onboard/core": ^2.15.0
-    use-sync-external-store: 1.0.0
-  peerDependencies:
-    react: ">=16.8"
-  checksum: cec0121b6b165e4eeb31ee6b475a85f1e2dceac19dc82b1039571cc22c13e2dfaa972c7be14f585c06228aa72ebe545a5de140ed71c5e0b881340f98b9982b09
   languageName: node
   linkType: hard
 
@@ -15109,19 +15062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bnc-sdk@npm:^4.6.5":
-  version: 4.6.6
-  resolution: "bnc-sdk@npm:4.6.6"
-  dependencies:
-    crypto-es: ^1.2.2
-    nanoid: ^3.3.1
-    rxjs: ^6.6.3
-    sturdy-websocket: ^0.1.12
-  checksum: 5aa90af66b7c30dda5f811e72e68f89fc65edfdb65589ba39fb015eceddf3989480e9df48e4c64bf1380715375330fc0fae81bd667f533f0b524f4eb5ba74196
-  languageName: node
-  linkType: hard
-
-"bnc-sdk@npm:^4.6.6":
+"bnc-sdk@npm:^4.6.7":
   version: 4.6.7
   resolution: "bnc-sdk@npm:4.6.7"
   dependencies:
@@ -34677,15 +34618,6 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 925d1922f9853e516eaad526b6fed1be38008073067274f0ecc3f56b17bb8ab63480140dd7c271f94150027c996cea4efe83d3e3525e8f3eda22055f6a39220b
-  languageName: node
-  linkType: hard
-
-"use-sync-external-store@npm:1.0.0":
-  version: 1.0.0
-  resolution: "use-sync-external-store@npm:1.0.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0-rc
-  checksum: f3df10af62625169d6a8cd8d4f38942dc6817aa27398fa7f474421fd574b0c4c83679b9d15f983f482c396ee1183416eb146814c81f44241e1480acd701ef018
   languageName: node
   linkType: hard
 
