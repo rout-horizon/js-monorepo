@@ -4,7 +4,7 @@
   "main": "index.ts",
   "version": "0.0.1",
   "dependencies": {
-    "@synthetixio/wei": "workspace:*",
+    "@rout-horizon/wei": "workspace:*",
     "react": "^18.2.0"
   }
 }

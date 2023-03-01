@@ -4,13 +4,13 @@
   "main": "index.ts",
   "version": "0.0.4",
   "dependencies": {
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v2/ContractContext": "workspace:*",
     "@snx-v2/getHealthVariant": "workspace:*",
     "@snx-v2/useDebtData": "workspace:*",
     "@snx-v2/useExchangeRatesData": "workspace:*",
     "@snx-v2/useLiquidationData": "workspace:*",
     "@snx-v2/useSynthetixContracts": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "@tanstack/react-query": "^4.24.6",
     "react": "^18.2.0"
   }

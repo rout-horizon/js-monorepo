@@ -24,7 +24,7 @@
   "author": "Daniel Beal <daniel@synthetix.io>",
   "license": "GPL-3.0",
   "dependencies": {
-    "@synthetixio/wei": "workspace:*",
+    "@rout-horizon/wei": "workspace:*",
     "lodash": "^4.17.21"
   },
   "devDependencies": {

@@ -4,13 +4,13 @@
   "main": "index.ts",
   "version": "0.0.4",
   "dependencies": {
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v2/Constants": "workspace:*",
     "@snx-v2/ContractContext": "workspace:*",
     "@snx-v2/useExchangeRatesData": "workspace:*",
     "@snx-v2/useFeePeriodMultiNetwork": "workspace:*",
     "@snx-v2/useSynthetixContracts": "workspace:*",
     "@snx-v2/useTotalStakedSNX": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "react": "^18.2.0"
   }
 }

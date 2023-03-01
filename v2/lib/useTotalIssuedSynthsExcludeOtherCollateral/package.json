@@ -5,8 +5,8 @@
   "version": "0.0.4",
   "dependencies": {
     "@ethersproject/strings": "^5.7.0",
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v2/useSynthetixContracts": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "@tanstack/react-query": "^4.24.6"
   }
 }

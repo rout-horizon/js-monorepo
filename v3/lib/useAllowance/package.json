@@ -4,9 +4,9 @@
   "main": "index.ts",
   "version": "0.0.2",
   "dependencies": {
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v3/useBlockchain": "workspace:*",
     "@snx-v3/zod": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "@tanstack/react-query": "^4.24.6",
     "ethers": "^5.7.2"
   }

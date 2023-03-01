@@ -5,9 +5,9 @@
   "version": "0.0.1",
   "dependencies": {
     "@chakra-ui/react": "^2.5.0",
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v3/Amount": "workspace:*",
     "@snx-v3/useBlockchain": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "react": "^18.2.0"
   }
 }

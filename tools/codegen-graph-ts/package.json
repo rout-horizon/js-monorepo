@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/KillerByte/codegen-graph-ts#readme",
   "dependencies": {
+    "@rout-horizon/wei": "workspace:*",
     "@synthetixio/generate-subgraph-query": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "@tanstack/react-query": "^4.24.6",
     "axios": "^1.3.3",
     "commander": "^8.1.0",

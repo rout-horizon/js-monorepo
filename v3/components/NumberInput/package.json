@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "dependencies": {
     "@chakra-ui/react": "^2.5.0",
-    "@synthetixio/wei": "workspace:*",
+    "@rout-horizon/wei": "workspace:*",
     "react": "^18.2.0"
   }
 }

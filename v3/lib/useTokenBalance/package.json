@@ -5,10 +5,10 @@
   "version": "0.0.1",
   "dependencies": {
     "@ethersproject/providers": "^5.7.2",
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v3/assertAddressType": "workspace:*",
     "@snx-v3/useBlockchain": "workspace:*",
     "@snx-v3/zod": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "@tanstack/react-query": "^4.24.6",
     "ethers": "^5.7.2"
   }

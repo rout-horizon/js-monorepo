@@ -4,10 +4,10 @@
   "main": "index.ts",
   "version": "0.0.5",
   "dependencies": {
+    "@rout-horizon/contracts-interface": "workspace:*",
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v2/ContractContext": "workspace:*",
     "@snx-v2/useSynthetixContracts": "workspace:*",
-    "@synthetixio/contracts-interface": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "@tanstack/react-query": "^4.24.6",
     "ethers": "^5.7.2",
     "react": "^18.2.0"

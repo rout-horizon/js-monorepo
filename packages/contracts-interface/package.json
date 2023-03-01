@@ -1,5 +1,5 @@
 {
-  "name": "@synthetixio/contracts-interface",
+  "name": "@rout-horizon/contracts-interface",
   "publishConfig": {
     "access": "public"
   },

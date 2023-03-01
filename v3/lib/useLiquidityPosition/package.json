@@ -4,9 +4,9 @@
   "main": "index.ts",
   "version": "0.0.1",
   "dependencies": {
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v3/useCoreProxy": "workspace:*",
     "@snx-v3/zod": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "@tanstack/react-query": "^4.24.6",
     "zod": "^3.20.6"
   }

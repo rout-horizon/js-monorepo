@@ -4,6 +4,7 @@
   "main": "index.ts",
   "version": "0.0.4",
   "dependencies": {
+    "@rout-horizon/wei": "workspace:*",
     "@snx-v2/Constants": "workspace:*",
     "@snx-v2/stakingCalculations": "workspace:*",
     "@snx-v2/useDebtData": "workspace:*",
@@ -11,7 +12,6 @@
     "@snx-v2/useExchangeRatesData": "workspace:*",
     "@snx-v2/useFeePoolData": "workspace:*",
     "@snx-v2/useFeesBurnedInPeriod": "workspace:*",
-    "@synthetixio/wei": "workspace:*",
     "react": "^18.2.0"
   }
 }

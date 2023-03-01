@@ -1,9 +1,9 @@
 {
-  "name": "@synthetixio/wei",
+  "name": "@rout-horizon/wei",
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.74.4",
+  "version": "2.74.5",
   "description": "Convenient BigNumber library for web3",
   "source": "./src/index.ts",
   "main": "./build/index.js",
